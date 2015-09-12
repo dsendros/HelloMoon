@@ -31,7 +31,7 @@ public class HelloMoonFragment extends Fragment {
                 mPlayer.play(getActivity());
             }
         });
-        
+
         mStopButton = (Button)v.findViewById(R.id.hellomoon_stopButton);
         mStopButton.setOnClickListener(new View.OnClickListener() {
             @Override
